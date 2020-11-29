@@ -9,10 +9,10 @@ Runs a Flask app that displays a cute cat gif provided by Giphy, on top of Alpin
     docker run -p 8888:5000 --name cat-gif goncalommarques/cat-gif-of-the-day
 ## View
 
-Going to http://localhost:8888 [use the defined port] should see the following:
+Going to http://localhost:8888 you should see something similar to:
 
 ![Cat of the day](sample.png)
 
-## Reference
+## References
 
-This has been an adapted version of the Docker sample from [Docker Labs](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md#231-create-a-python-flask-app-that-displays-random-cat-pix).
+This has been an adapted version of the Docker sample from [Docker Labs](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md#231-create-a-python-flask-app-that-displays-random-cat-pix). Main changes include usage of new versions from Python & Alpine.

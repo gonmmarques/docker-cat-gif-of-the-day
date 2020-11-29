@@ -10,10 +10,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py /usr/src/app
 COPY templates /usr/src/app/templates
 
-WORKDIR /usr/src/app/templates
-RUN ls
-
-
 EXPOSE 5000
 
 CMD ["python3", "/usr/src/app/app.py"]

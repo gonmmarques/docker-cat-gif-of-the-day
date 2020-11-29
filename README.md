@@ -18,6 +18,7 @@ Going to http://localhost:8888 you should see something similar to:
 This has been an adapted version of the Docker sample from [Docker Labs](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md#231-create-a-python-flask-app-that-displays-random-cat-pix). 
 Changes include:
 - Use Alpine 3.12.1
-- Update to Python3
+- Update to Python 3.x
+- Update to Flask 1.1.2
 - Clean up index.html a bit
 - Change gif from BuzFeed (no longer available) to selected funny cat Giphys

@@ -7,6 +7,7 @@ Runs a Flask app that displays a cute cat gif provided by Giphy, on top of Alpin
 
 ## Usage
     docker run -p 8888:5000 --name cat-gif goncalommarques/cat-gif-of-the-day
+
 ## View
 
 Going to http://localhost:8888 you should see something similar to:
@@ -22,3 +23,8 @@ Changes include:
 - Update to Flask 1.1.2
 - Clean up index.html a bit
 - Change gif from BuzFeed (no longer available) to selected funny cat Giphys
+
+
+## License
+
+docker-cat-gif-of-the-day is free software distributed under the terms of the [MIT license](http://opensource.org/licenses/mit-license.html).

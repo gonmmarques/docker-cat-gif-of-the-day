@@ -6,7 +6,7 @@ Runs a Flask app that displays a cute cat gif provided by Giphy, on top of Alpin
 
 
 ## Usage
-    docker run -p 8888:5000 --name cat-gif goncalommarques/cat-gif-of-the-day
+    docker run -p 8888:5000 --name cat-gif goncalommarques/flask-cat-gif
 
 ## View
 
